@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.main {
+    width: 100%;
+    background-color: darkblue;
+    padding-top: 50px;
+    padding-left: 10px;
+    float: left;
+    /* The width is 60%, by default */
+    /* padding-right: 0px; */
+}
+.left {
+    /* background-color: blue; */
+    padding: 20px;
+    float: left;
+    width: 35%;
+    margin-left: 80px;
+    color: white;
+    /* The width is 20%, by default */
+}
+.left h2{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.left p{
+    text-align: justify;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.right {
+    /* background-color: #04AA6D; */
+    /* padding: 20px; */
+    float: right;
+    width: 57%;
+    /* The width is 20%, by default */
+    text-align: right;
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 800px) {
+    .main{
+        width: 100%;
+        /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .left, .right img{
+        width: 100%;
+        margin-left: 2px;
+        /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}
+/* 
+.btn1 {
+    background-color: white;
+    color: darkblue;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid darkblue;
+    width: '200px';
+    height: 25px;
+}
+.btn2 {
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    width: '200px';
+    height: 25px;
+} */

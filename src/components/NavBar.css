@@ -1,0 +1,8 @@
+.dropdown{
+    color: white;
+} 
+
+.dropdown>a::after {
+    color:  white;
+}
+

@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.secMain {
+    width: 100%;
+    background-color: white;
+    padding-top: 50px;
+    padding-left: 10px;
+    float: left;
+    /* The width is 60%, by default */
+    /* padding-right: 0px; */
+}
+.secLeft {
+    /* background-color: blue; */
+    padding: 20px;
+    float: left;
+    width: 70%;
+    /* margin-left: 80px; */
+    color: darkblue;
+    text-align: center;
+    /* The width is 20%, by default */
+}
+.secLeft h2{
+    font-weight: bold;
+    /* text-align: center; */
+}
+.secLeft p{
+    /* text-align: justify; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.secRight {
+    background-color:lightgray;
+    padding: 10px;
+    float: left;
+    width: 25%;
+    /* The width is 20%, by default */
+    text-align: justify;
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 800px) {
+    .secMain{
+        width: 100%;
+        /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}
+@media screen and (max-width: 800px) {
+    .secLeft, .secRight {
+        width: 100%;
+        /* margin-left: 2px; */
+        /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}
+
+/* 
+.btn1 {
+    background-color: white;
+    color: darkblue;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid darkblue;
+    width: '200px';
+    height: 25px;
+}
+.btn2 {
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    width: '200px';
+    height: 25px;
+} */
